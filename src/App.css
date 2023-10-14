@@ -1,6 +1,13 @@
+*{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
   height: 100vh;
   width: 100%;
-  background-color: rgb(41, 17, 75);
+  /* background: transpar; */
 }
