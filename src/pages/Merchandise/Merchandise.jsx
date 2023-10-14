@@ -10,7 +10,7 @@ function Merchandise() {
     <>
       <div className='merch-home'>
         <div className='merch-display'>
-          <h1 style={{overflow:"hidden",fontSize:"3rem",color:"#650808",fontWeight:"700"}}>The HITian Inside</h1>
+          <h1>The HITian Inside</h1>
           <div className="merch">
             <img src={tshirtf} alt="front tshirt" />
             <img src={tshirtb} alt="back tshirt" />

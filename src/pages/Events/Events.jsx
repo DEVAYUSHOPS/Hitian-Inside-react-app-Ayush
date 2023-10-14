@@ -29,7 +29,7 @@ function Events() {
         <div className="events-list">
           <div className="Events-cards grid grid-cols-3 gap-5">
             {events.map((event, index) => (
-              <div class="event-card max-w-3/4 rounded-lg overflow-hidden shadow-2xl content-center">
+              <a href="https://www.google.com" target="_blank" class="event-card max-w-3/4 rounded-lg overflow-hidden shadow-2xl content-center">
                 <img
                   src={event.img_url}
                   alt="Sunset in the mountains"
@@ -42,7 +42,7 @@ function Events() {
                     DATE: {event.date}
                   </div>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
